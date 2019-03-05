@@ -22,7 +22,7 @@ npm run build
 **注意:** zepto不提供模块导入方式,本项目直接将`myzepto.js`作为入口文件之一打包,便于调用`$`的方法.
 
 ### 项目展示
-
+<div>
   <img src="./assets/首页.png" width="30%"/>
   <img src="./assets/登录.png" width="30%"/>
   <img src="./assets/商品列表.png" width="30%"/>
@@ -31,7 +31,7 @@ npm run build
   <img src="./assets/购物车.png" width="30%"/>
   <img src="./assets/订单.png" width="30%"/>
   <img src="./assets/消息.png" width="30%"/>
-
+</div>
 ### 项目目录
 - dist:生成文件夹
 - mock:测试用数据
