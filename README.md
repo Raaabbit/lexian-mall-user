@@ -3,7 +3,7 @@
 
 本项目已不再更新，本文中内容仅作为总结，详情请直接参照源代码
 
-完整的项目前后端请参见地址~~[18lexian-mall](https://github.com/18Lexian-Mall)~~
+完整的项目前后端请参见地址 ~~[18lexian-mall](https://github.com/18Lexian-Mall)~~
 被同组的另一个owner删除了？？？
 
 ## lexian-mall-user
