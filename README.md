@@ -3,19 +3,36 @@
 
 本项目已不再更新，本文中内容仅作为总结，详情请直接参照源代码
 
-完整的项目前后端请参见地址[18lexian-mall](https://github.com/18Lexian-Mall)
+完整的项目前后端请参见地址~~[18lexian-mall](https://github.com/18Lexian-Mall)~~
+被同组的另一个owner删除了？？？
+
 ## lexian-mall-user
 
 ### 开发
-安装依赖
-```
+```shell
+# 安装依赖
 npm install
+# 启动本地调试服务
+npm run dev
+# build
+npm run build
 ```
 **注意:** 本项目的zepto包含模块`zepto event ajax form ie deferred callbacks touch`,请参考官方文档构建所需要的zepto文件
 
 **注意:** zepto不提供模块导入方式,本项目直接将`myzepto.js`作为入口文件之一打包,便于调用`$`的方法.
 
-### 项目解析
+### 项目展示
+
+  <img src="./assets/首页.png" width="30%"/>
+  <img src="./assets/登录.png" width="30%"/>
+  <img src="./assets/商品列表.png" width="30%"/>
+  <img src="./assets/商品详情.png" width="30%"/>
+  <img src="./assets/店铺详情.png" width="30%"/>
+  <img src="./assets/购物车.png" width="30%"/>
+  <img src="./assets/订单.png" width="30%"/>
+  <img src="./assets/消息.png" width="30%"/>
+
+### 项目目录
 - dist:生成文件夹
 - mock:测试用数据
 - src:源代码
