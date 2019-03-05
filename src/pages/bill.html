@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lexian-mall bill</title>
+    <link rel="stylesheet" href="../common/css/base.css">
+    <link rel="stylesheet" href="../common/css/init.css">
+    <link rel="stylesheet" href="../works/css/u_footer.css">
+    <link rel="stylesheet" href="../works/css/bill.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>订单详情</h1>
+        </header>
+        <div class="m-body">
+            <!-- 当前订单 -->
+            <div class="m-func-area">
+                <h2>当前订单</h2>
+                <ul class="all-bill  new-bill">
+                    <li class="bill-item">
+                        <div class="bill-msg clearfix">
+                            <p class="bill-code">
+                                <span>取货码：7412</span>
+                            </p>
+                            <p class="bill-addr">商家地址：
+                                <span class="bill-addr-val">东南大学梅园食堂中超超市</span>
+                            </p>
+                            <p class="bill-money">订单金额：25元</p>
+                            <p class="bill-time">下单时间：12:25</p>
+                        </div>
+
+                        <div class=" bill-detail-item clearfix">
+                            <p class="bill-detail-name">可口可乐</p>
+                            <p class="bill-detail-count">数量:2</p>
+                            <p class="bill-detail-money">价格:10</p>
+                        </div>
+                        <div class=" bill-detail-item clearfix">
+                            <p class="bill-detail-name">今麦郎大包</p>
+                            <p class="bill-detail-count">数量:1</p>
+                            <p class="bill-detail-money">价格:15/p>
+                        </div>
+                        <a>确认完成 </a>
+                    </li>
+                </ul>
+            </div> <!-- 历史订单 -->
+            <div class="m-func-area" style="margin-bottom: 2.4rem;">
+                <h2>历史订单</h2>
+                <ul class="all-bill old-bill">
+                    <li class="bill-item">
+                        <div class="bill-msg clearfix">
+                            <p class="bill-code"><span>取货码：</span> 1532</p>
+                            <p class="bill-addr">
+                                商家地址：<span class="bill-addr-val">东南大学梅园食堂中超超市</span>
+                            </p>
+                            <p class="bill-money">订单金额：10元</p>
+                            <p class="bill-time">下单时间：2018-09-09</p>
+                        </div>
+                    </li>
+                    <li class="bill-item">
+                        <div class="bill-msg clearfix">
+                            <p class="bill-code"><span>取货码：</span> 1532</p>
+                            <p class="bill-addr">
+                                商家地址：<span class="bill-addr-val">东南大学梅园食堂中超超市</span>
+                            </p>
+                            <p class="bill-money">订单金额：13元</p>
+                            <p class="bill-time">下单时间：2018-09-11</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- 底部菜单栏，可以用于主要页面的跳转 -->
+        <footer class="flex nav-footer border ">
+            <span>
+                <img src="../res/icon_user/like.svg">
+                <h6>收藏</h6>
+            </span>
+            <span>
+                <img src="../res/icon_user/msg.svg">
+                <h6>消息</h6>
+            </span>
+            <span>
+                <img src="../res/icon_user/home.svg">
+                <h6>首页</h6>
+            </span>
+            <span>
+                <img src="../res/icon_user/bill.svg">
+                <h6>订单</h6>
+            </span>
+            <span>
+                <img src="../res/icon_user/cart.svg">
+                <h6>购物车</h6>
+            </span>
+        </footer>
+    </div>
+
+    <script src="../common/js/myzepto.js"> </script>
+    <script type="module" src="../works/js/bill.js"> </script>
+</body>
+
+</html>
